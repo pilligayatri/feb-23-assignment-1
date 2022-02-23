@@ -1,0 +1,15 @@
+list=[]
+n=int(input("how many numbers"))
+for i in range(n):
+    d=int(input("enter numbers"))
+    list.append(d)
+min=list[0]
+max=list[0]
+for i in range(1,n):
+    if list[i]<min:
+        min=list[i]
+    if list[i]>max:
+        max=list[i]
+print("min element of a list are:",min)
+print("max element of a list are:",max)
+
